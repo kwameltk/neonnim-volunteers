@@ -1,0 +1,40 @@
+#quesBody{
+    width: 80vw;
+    background-color: off;
+margin: 0 auto;
+}
+h3{
+    font-size: 18px;
+}
+.faq{
+    cursor: pointer;
+    border-bottom: 0px solid black;
+   
+}
+.ans {
+  height:  0; 
+    overflow: hidden;
+}
+.active .ans{
+   height: auto;
+}
+.ques{
+   text-transform:  capitalize;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 5rem;    
+}
+.icon{
+    transition: .5s;
+   display: flex;
+    font-size: 2rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+       
+}
+.active .icon{
+    transform-origin:center;
+    transform: rotate(-180deg);
+}
+
